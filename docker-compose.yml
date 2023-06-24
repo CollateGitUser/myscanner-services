@@ -1,0 +1,36 @@
+version: '3.4'
+
+services:
+  myscanner.cms.api:
+    image: ${DOCKER_REGISTRY-}myscannercmsapi
+    build:
+      context: .
+      dockerfile: MyScanner.CMS.API/Dockerfile
+
+  myscanner.identity.api:
+    image: ${DOCKER_REGISTRY-}myscanneridentityapi
+    build:
+      context: .
+      dockerfile: MyScanner.Identity.API/Dockerfile
+
+
+  myscanner.media.api:
+    image: ${DOCKER_REGISTRY-}myscannermediaapi
+    build:
+      context: .
+      dockerfile: MyScanner.Media.API/Dockerfile
+
+
+  myscanner.news.api:
+    image: ${DOCKER_REGISTRY-}myscannernewsapi
+    build:
+      context: .
+      dockerfile: MyScanner.News.API/Dockerfile
+
+
+  myscanner.vendor.api:
+    image: ${DOCKER_REGISTRY-}myscannervendorapi
+    build:
+      context: .
+      dockerfile: MyScanner.Vendor.API/Dockerfile
+

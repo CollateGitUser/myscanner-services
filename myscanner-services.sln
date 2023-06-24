@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyScanner.Identity.API", "MyScanner.Identity.API\MyScanner.Identity.API.csproj", "{B6F035F7-B885-420D-9010-59898B2A1B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyScanner.Media.API", "MyScanner.Media.API\MyScanner.Media.API.csproj", "{0F47E0EA-C9A2-4819-B1F0-C3EA0315DEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyScanner.Vendor.API", "MyScanner.Vendor.API\MyScanner.Vendor.API.csproj", "{CD1FF228-7A38-475E-9929-1962E7753ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyScanner.News.API", "MyScanner.News.API\MyScanner.News.API.csproj", "{2C0B59AA-0755-4D88-A570-CF6BBBFB6FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyScanner.CMS.API", "MyScanner.CMS.API\MyScanner.CMS.API.csproj", "{2CB88B42-B04B-44E1-B88C-BD20549BFB58}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BC67AB12-D425-41F6-B349-AEB48F4855F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6F035F7-B885-420D-9010-59898B2A1B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F035F7-B885-420D-9010-59898B2A1B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F035F7-B885-420D-9010-59898B2A1B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F035F7-B885-420D-9010-59898B2A1B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F47E0EA-C9A2-4819-B1F0-C3EA0315DEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F47E0EA-C9A2-4819-B1F0-C3EA0315DEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F47E0EA-C9A2-4819-B1F0-C3EA0315DEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F47E0EA-C9A2-4819-B1F0-C3EA0315DEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1FF228-7A38-475E-9929-1962E7753ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1FF228-7A38-475E-9929-1962E7753ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1FF228-7A38-475E-9929-1962E7753ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1FF228-7A38-475E-9929-1962E7753ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0B59AA-0755-4D88-A570-CF6BBBFB6FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B59AA-0755-4D88-A570-CF6BBBFB6FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B59AA-0755-4D88-A570-CF6BBBFB6FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B59AA-0755-4D88-A570-CF6BBBFB6FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB88B42-B04B-44E1-B88C-BD20549BFB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB88B42-B04B-44E1-B88C-BD20549BFB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB88B42-B04B-44E1-B88C-BD20549BFB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB88B42-B04B-44E1-B88C-BD20549BFB58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC67AB12-D425-41F6-B349-AEB48F4855F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC67AB12-D425-41F6-B349-AEB48F4855F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC67AB12-D425-41F6-B349-AEB48F4855F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC67AB12-D425-41F6-B349-AEB48F4855F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBCD3402-CCAE-4173-B4F4-7F8212A7B99B}
+	EndGlobalSection
+EndGlobal
